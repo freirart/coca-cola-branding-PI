@@ -1,0 +1,19 @@
+:root {
+  --red-title: #bd1b15;
+  --black-text: #452a1f;
+  --black-bg: #0e0e0e;
+  --red-strong: #ca0000;
+  --white: #fefefe;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100vh;
+  width: 100vw;
+  font-family: 'Open Sans', sans-serif;
+}
