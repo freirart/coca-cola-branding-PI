@@ -24,6 +24,13 @@ header {
     height: 5vh;
 }
 
+.img-banner{
+    display: none;
+}
+
+.txt-banner-div{
+    display: none;
+}
 
 .descricao{
      font-size: 1.8vh;
@@ -138,9 +145,124 @@ a .social-icon{
                             /*  FIM DAS CONFIGURAÇÕES DOS TEXTOS DE AJUDA DO FOOTER   */
 
 
-@media (min-width: 767px) and (max-width: 1024){    /*INICIO DO RESPONSIVO PARA O IPAD*/
+                            /*INICIO DO RESPONSIVO PARA O IPAD - PAGE LANDING INICIAL*/
+                           
+  /* @media (min-width: 767px){    
 
-
-
-
+.header-content{
+    height: 6vh;
 }
+
+header .logo img{
+    height: 3vh;
+}
+
+.img-banner{
+    display: flex;
+}
+
+.img-banner .banner{
+    width: 100vw;
+}
+.descricao{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.descricao h2{
+    margin-bottom: 0;
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+
+.txt-banner-div{
+    display: flex;
+    width: 100vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-bottom: 5vw;
+}
+
+.txt-banner{
+    color: white;
+    text-align: justify;
+    justify-content: center;
+    line-height: 3.5vw;
+    font-size: 2.8vw;
+}
+
+.container-pai{
+    display: flex;
+    flex-direction: row;
+    height: 20vw;
+    justify-content: space-between;
+    width: 100vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.produtosA{
+    width: 44vw;
+    justify-content: space-between;
+}
+
+.produtosB{
+    width: 44vw;
+    justify-content: space-between;
+}
+   
+.coca-img-original img{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+.coca-img-zero img{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+.coca-img-light img{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+.coca-img-cafe img{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: -5vw;
+}
+
+.conteudo-footer{
+    display: flex;
+}
+
+.social{
+    display: flex;
+    margin-top: 6vw;
+    margin-bottom: 3vw;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info .tab-sobre-nos{
+    margin-right: 15vw;
+}
+
+.conteudo-footer .info p{
+    font-size: 3vw;
+}
+
+} */
