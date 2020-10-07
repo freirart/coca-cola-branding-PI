@@ -85,6 +85,7 @@
 .tamanhos{
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .tamanho-lata-div{
@@ -188,6 +189,7 @@ footer{
     align-items: center;
     flex-direction: row;
     background-color: #fe001a;
+    width: 100%;
 }
 
 .conteudo-footer{
@@ -214,23 +216,4 @@ footer{
 a .social-icon{
     width: 8vw;
     margin: 1vw;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+} 
