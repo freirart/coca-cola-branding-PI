@@ -59,6 +59,7 @@
 
   .s3 {
       background: url('/assets/images/landing/landing-1.png');
+      background-size: cover;
   }
 
   .list-left {
@@ -91,6 +92,7 @@
 
 .s4 {
     background: url('/assets/images/landing/landing-3.png');
+    background-size: cover;
 }
 
 .list-right{
@@ -116,6 +118,7 @@
 
 .s5 {
     background: url('/assets/images/landing/landing-2.png');
+    background-size: cover;
 }
 
 
