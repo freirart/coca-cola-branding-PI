@@ -1,125 +1,133 @@
 
-  * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-  }
-  
-  body, html {
-    height: 100vh;
-    width: 100vw;
-    font-family: 'Open Sans', sans-serif;
-  }
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    
+    body, html {
+        height: 100vh;
+        width: 100vw;
+        font-family: 'Open Sans', sans-serif;
+    }
 
-  .conteudo2 {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
+    .natural-caffeine {
+        background: url('/assets/images/landing/landing-7.png');
+        background-size: cover;
+    }
 
-  .copo {
-      margin-right: 50px;
-  }
+    .phosphoric-acid {
+        background: url('/assets/images/landing/landing-1.png');
+        background-size: cover;
+    }
 
-  .copo img {
-      width: 250px;
-  }
+    .caramel {
+        background: url('/assets/images/landing/landing-3.png');
+        background-size: cover;
+    }
 
-  .list {
-      width: 30%;
-  }
-  
-  .list h1 {
-      color: var(--red-strong);
-      margin-bottom: 8px;
-  }
+    .water {
+        background: url('/assets/images/landing/landing-2.png');
+        background-size: cover;
+    }
 
-  .list h3 {
-      margin-bottom: 20px;
-  }
+    .happiness {
+        background: url('/assets/images/landing/landing-5.png');
+        background-size: cover;
+    }
 
-  
-  .list ul li {
-      list-style: none;
-      margin-bottom: 25px;
-      border-left: 2px solid rgb(204, 201, 201);
-      padding: 5px;
-  }
-  
-  .button {
-      background-color: var(--red-strong);
-      color: white;
-      font-weight: bold;
-      width: 50%;
-      height: 5vh;
-      border: none;
-      border-radius: 5px;
-  }
+    .natural-flavorings {
+        background: url('/assets/images/landing/landing-8.png');
+        background-size: cover;
+    }
 
+    .conteudo-right {
+        display: flex;
+        justify-content: flex-end;
+        text-align: right;
+        width: 90%;
+    }
 
-  .s3 {
-      background: url('/assets/images/landing/landing-1.png');
-      background-size: cover;
-  }
+    .list {
+        width: 30%;
+    }
+    
+    .list h1 {
+        color: var(--red-strong);
+        margin-bottom: 8px;
+    }
 
-  .list-left {
-      width: 30%;
-  }
+    .list h3 {
+        margin-bottom: 20px;
+    }
 
-  .list-left h1 {
-    color: var(--red-strong);
-    margin-bottom: 8px;
-  }
+    
+    .list ul li {
+        list-style: none;
+        margin-bottom: 25px;
+        border-left: 2px solid rgb(204, 201, 201);
+        padding: 5px;
+    }
+    
+    .button {
+        background-color: var(--red-strong);
+        color: white;
+        font-weight: bold;
+        width: 50%;
+        height: 5vh;
+        border: none;
+        border-radius: 5px;
+    }
 
-  .list-left h3 {
-    margin-bottom: 20px;
-  }
+    .list-left {
+        width: 30%;
+    }
 
+    .list-left h1 {
+        color: var(--red-strong);
+        margin-bottom: 8px;
+    }
 
-  .list-left ul li {
-    list-style: none;
-    margin-bottom: 25px;
-    border-right: 2px solid rgb(204, 201, 201);
-    padding: 5px;
-  }
-
-  .conteudo3 {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    margin-left: 100px;
-}
-
-.s4 {
-    background: url('/assets/images/landing/landing-3.png');
-    background-size: cover;
-}
-
-.list-right{
-    width: 30%;
-}
-
-.list-right h1 {
-    color: var(--red-strong);
-    margin-bottom: 8px;
-}
-
-.list-right h3 {
-    margin-bottom: 20px;
-}
+    .list-left h3 {
+        margin-bottom: 20px;
+    }
 
 
-.list-right ul li {
-    list-style: none;
-    margin-bottom: 25px;
-    border-left: 2px solid rgb(204, 201, 201);
-    padding: 5px;
-}
+    .list-left ul li {
+        list-style: none;
+        margin-bottom: 25px;
+        border-right: 2px solid rgb(204, 201, 201);
+        padding: 5px;
+    }
 
-.s5 {
-    background: url('/assets/images/landing/landing-2.png');
-    background-size: cover;
-}
+    .conteudo-left {
+        display: flex;
+        justify-content: flex-start;
+        align-items: left;
+        margin-left:100px;
+    }
+
+    .list-right{
+        width: 30%;
+    }
+
+    .list-right h1 {
+        color: var(--red-strong);
+        margin-bottom: 8px;
+    }
+
+    .list-right h3 {
+        margin-bottom: 20px;
+    }
+
+
+    .list-right ul li {
+        list-style: none;
+        margin-bottom: 25px;
+        border-left: 2px solid rgb(204, 201, 201);
+        padding: 5px;
+    }
+
 
 
 
