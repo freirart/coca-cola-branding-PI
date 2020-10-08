@@ -2,7 +2,6 @@
   'use strict';
 
   const $githubSection = doc.querySelector('#github');
-  const $main = doc.querySelector('main');
 
   const urls = [
     'https://api.github.com/users/freirart',

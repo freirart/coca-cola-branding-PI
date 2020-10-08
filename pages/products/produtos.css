@@ -117,6 +117,7 @@
 .tamanhos{
     display: flex;
     justify-content: space-around;
+<<<<<<< HEAD
     width: 80vw;
 }
 
@@ -138,6 +139,9 @@
     justify-content: space-around;
     align-items: center;
     align-content: center;
+=======
+    width: 100%;
+>>>>>>> e6b056d935c777fed06503dafe31b8bb073ef3e4
 }
 
 .tamanho-lata-div{
@@ -288,6 +292,7 @@ footer{
     align-items: center;
     flex-direction: row;
     background-color: #fe001a;
+    width: 100%;
 }
 
 footer .info{
@@ -318,6 +323,7 @@ footer .info{
 a .social-icon{
     width: 8vw;
     margin: 1vw;
+<<<<<<< HEAD
 }
 
                             /*INICIO DO RESPONSIVO PARA O IPAD - PAGE PRODUCTS*/
@@ -940,3 +946,6 @@ p.sobre{
 
 
 
+=======
+} 
+>>>>>>> e6b056d935c777fed06503dafe31b8bb073ef3e4

@@ -1,0 +1,228 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(0, 0, 0, 0.95);
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #fe001a;
+    height: 10vh;
+}
+
+.logo img{
+    height: 5vh;
+}
+
+.img-banner{
+    display: none;
+}
+
+.txt-banner-div{
+    display: none;
+}
+
+.descricao{
+     font-size: 1.8vh;
+     color: white;
+     text-align: center;    
+     margin-top: 6vh;
+     margin-bottom: 6vh;
+}
+
+.container-pai{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15vw;
+    height: 100vw;
+    color: azure;
+    font-style: oblique;
+
+}
+
+
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #fe001a;
+}
+
+.conteudo-footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.social {                       /*  INICIO DAS CONFIGURAÇÕES DOS ICONES DO FOOTER   */
+    display: flex;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.menu-social{
+    display: flex;
+}
+
+.social-item{
+    flex-direction: row;
+    list-style-type: none;
+}
+
+a .social-icon{
+    width: 8vw;
+    margin: 1vw;
+}
+                             /*  FIM DAS CONFIGURAÇÕES DOS ICONES DO FOOTER   */
+
+                            /*  INICIO DAS CONFIGURAÇÕES DOS TEXTOS DE AJUDA DO FOOTER   */
+
+.conteudo-footer .info p{
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+    margin-bottom: 10vw;
+    line-height: 10vw;
+}
+
+.conteudo-footer .info p span{
+    font-weight: 600;
+}
+                            /*  FIM DAS CONFIGURAÇÕES DOS TEXTOS DE AJUDA DO FOOTER   */
+
+
+                            /*INICIO DO RESPONSIVO PARA O IPAD - PAGE LANDING INICIAL*/
+                           
+@media (min-width: 761px){    
+
+.header-content{
+    height: 6vh;
+}
+
+header .logo img{
+    height: 3vh;
+}
+
+.img-banner{
+    display: flex;
+}
+
+.img-banner .banner{
+    width: 100vw;
+}
+.descricao{
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+}
+.descricao h2{
+    margin-bottom: 0;
+    font-size: 3.5vw;
+    font-weight: 600;
+}
+
+.txt-banner-div{
+    display: flex;
+    width: 100vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-bottom: 5vw;
+}
+
+.txt-banner{
+    color: white;
+    text-align: justify;
+    justify-content: center;
+    line-height: 3.5vw;
+    font-size: 2.8vw;
+}
+
+.container-pai{
+    display: flex;
+    flex-direction: row;
+    height: 20vw;
+    justify-content: space-between;
+    width: 100vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+.produtosA{
+    width: 44vw;
+    justify-content: space-between;
+}
+
+.produtosB{
+    width: 44vw;
+    justify-content: space-between;
+}
+   
+.coca-img-original img{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+.coca-img-zero img{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+.coca-img-light img{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+.coca-img-cafe img{
+    width: 20vw;
+    margin: 0;
+    padding: 0;
+}
+
+footer{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: -5vw;
+}
+
+.conteudo-footer{
+    display: flex;
+}
+
+.social{
+    display: flex;
+    margin-top: 6vw;
+    margin-bottom: 3vw;
+    justify-content: center;
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.info .tab-sobre-nos{
+    margin-right: 15vw;
+}
+
+.conteudo-footer .info p{
+    font-size: 3vw;
+}
+
+} 
