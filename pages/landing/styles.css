@@ -12,32 +12,32 @@
     }
 
     .natural-caffeine {
-        background: url('/assets/images/landing/landing-7.png');
+        background: url('../../assets/images/landing/landing-7.png');
         background-size: cover;
     }
 
     .phosphoric-acid {
-        background: url('/assets/images/landing/landing-1.png');
+        background: url('../../assets/images/landing/landing-1.png');
         background-size: cover;
     }
 
     .caramel {
-        background: url('/assets/images/landing/landing-3.png');
+        background: url('../../assets/images/landing/landing-3.png');
         background-size: cover;
     }
 
     .water {
-        background: url('/assets/images/landing/landing-2.png');
+        background: url('../../assets/images/landing/landing-2.png');
         background-size: cover;
     }
 
     .happiness {
-        background: url('/assets/images/landing/landing-5.png');
+        background: url('../../assets/images/landing/landing-5.png');
         background-size: cover;
     }
 
     .natural-flavorings {
-        background: url('/assets/images/landing/landing-8.png');
+        background: url('../../assets/images/landing/landing-8.png');
         background-size: cover;
     }
 
