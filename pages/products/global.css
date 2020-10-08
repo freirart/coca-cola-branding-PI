@@ -20,6 +20,11 @@ header {
     height: 10vh;
 }
 
+.img-frame {
+    display: none;
+}
+
+
 .logo img{
     height: 5vh;
 }
@@ -43,7 +48,7 @@ header {
 .container-pai{
     display: flex;
     flex-direction: column;
-    width: 100vw;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin-bottom: 15vw;
@@ -142,12 +147,21 @@ a .social-icon{
 .conteudo-footer .info p span{
     font-weight: 600;
 }
+
+
+
+
                             /*  FIM DAS CONFIGURAÇÕES DOS TEXTOS DE AJUDA DO FOOTER   */
 
 
                             /*INICIO DO RESPONSIVO PARA O IPAD - PAGE LANDING INICIAL*/
                            
-  /* @media (min-width: 767px){    
+ @media (min-width: 767px){    
+
+
+.img-frame {
+    display: none;
+}
 
 .header-content{
     height: 6vh;
@@ -162,7 +176,7 @@ header .logo img{
 }
 
 .img-banner .banner{
-    width: 100vw;
+    width: 100%;
 }
 .descricao{
     margin-top: 5vw;
@@ -179,14 +193,14 @@ header .logo img{
     width: 100vw;
     padding-left: 3vw;
     padding-right: 3vw;
-    margin-bottom: 5vw;
+    margin-bottom: 6vw;
 }
 
 .txt-banner{
     color: white;
     text-align: justify;
     justify-content: center;
-    line-height: 3.5vw;
+    line-height: 4vw;
     font-size: 2.8vw;
 }
 
@@ -195,7 +209,7 @@ header .logo img{
     flex-direction: row;
     height: 20vw;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     padding-left: 4vw;
     padding-right: 4vw;
 }
@@ -251,18 +265,193 @@ footer{
     justify-content: center;
 }
 
-.info{
+a .social-icon{
+    width: 6vw;
+}
+
+footer .info{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-.info .tab-sobre-nos{
+footer .info .tab-sobre-nos{
     margin-right: 15vw;
 }
 
-.conteudo-footer .info p{
+ footer .conteudo-footer .info p{
     font-size: 3vw;
 }
 
-} */
+footer .info h4{ 
+    font-size: 5vw;
+    margin-bottom: 3vw;
+    margin-top: 5vw;
+}
+
+footer .info p{
+    font-size: 4.5vw;
+}
+
+footer .calorias h5, .acucar h5{
+    font-size: 4vw;
+}
+
+
+
+} 
+
+                            /*FIM DO RESPONSIVO PARA O IPAD - PAGE LANDING INICIAL*/
+
+                            /*INICIO DA VERSÃO DESKTOP - PAGE LANDING INICIAL*/
+
+@media(min-width: 1100px){
+
+    main{
+        position: absolute;
+        right: 0;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 100%;
+    }
+
+    .container-all{
+        padding: 2rem;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header.header-content{
+        width: 5%;
+        height: 100vh;
+        margin: 0;
+        min-width: 52px; 
+        align-items: center;
+        flex-direction: column;
+        padding-top: 1rem;
+        display: flex;
+        position: fixed;
+    }
+
+    .img-banner{
+        display: none;
+    }
+
+    .header-menu{
+        transform: rotate(-90deg);
+        max-width: 80px;
+        margin: auto 0;
+    }
+
+    .descricao{
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+
+    .descricao h2 {
+        letter-spacing: 1px;
+        font-size: 1.8rem; 
+        text-align: center;
+    }
+
+    .txt-banner-div{
+       margin: 0;
+       padding: 0;
+       width: 65%;
+       justify-content: center;
+    }
+
+    .txt-banner{
+        font-size: 1.4rem;
+        line-height: 2.5rem;
+        text-align: justify;   
+    }
+
+    .container-pai{
+        padding: 0;
+        margin-bottom: 6rem;
+        display: flex;
+        justify-content: space-around;
+        position: relative;
+        bottom: -3%;
+        width: 70%;
+        height: 30%;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    .produtosA{
+        width: 44%;
+        justify-content: space-between;
+    }
+
+    .produtosB{
+        width: 44%;
+        justify-content: space-between;
+    }
+
+    .coca-img-original img, .coca-img-zero img, .coca-img-light img, .coca-img-cafe img{
+        width: 12vw;
+        -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    }
+
+    .coca-img-original img:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+
+    .coca-img-zero img:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+       
+    }
+
+    .coca-img-light img:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+
+    .coca-img-cafe img:hover{
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    
+    .img-frame{
+        display: flex;
+        width: 65%;
+        justify-content: center;
+    }
+
+    .frame{
+        width: 100%;
+    }
+
+    footer{
+        display: none;
+    }
+
+}                            
+
+                            /*FIM DA VERSÃO DESKTOP - PAGE LANDING INICIAL*/
