@@ -36,6 +36,11 @@ nav {
   position: fixed;
   background: var(--red-strong);
   color: var(--white);
+  transition: 0.2s;
+}
+
+nav.opened {
+  width: 25%;
 }
 
 nav .img-container {
@@ -61,6 +66,11 @@ nav button {
   cursor: pointer;
 }
 
+nav button.opened {
+  align-self: flex-end;
+  margin-right: 1.5rem;
+}
+
 main {
   position: absolute;
   right: 0;
@@ -70,6 +80,12 @@ main {
   flex-direction: column;
   width: 95%;
   height: 100%;
+  transition: 0.2s;
+}
+
+main.opened {
+  right: -20%;
+  opacity: 0.25;
 }
 
 h1 {
