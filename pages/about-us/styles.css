@@ -36,7 +36,7 @@ nav {
   position: fixed;
   background: var(--red-strong);
   color: var(--white);
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 nav.opened {
@@ -50,10 +50,21 @@ nav .img-container {
   align-items: center;
 }
 
+nav .img-container.opened {
+  position: absolute;
+  bottom: 1rem;
+  height: auto;
+  width: 100%;
+}
+
 nav img {
   max-width: 80px;
   transform: rotate(-90deg);
   margin: auto 0;
+}
+
+nav img.opened {
+  transform: none;
 }
 
 nav button {
@@ -62,13 +73,36 @@ nav button {
   font-size: 1.4rem;
   border: 0;
   outline: none;
-  transition: 0.2s;
+  transition: 0.3s;
   cursor: pointer;
 }
 
 nav button.opened {
   align-self: flex-end;
   margin-right: 1.5rem;
+  margin-bottom: .5rem;
+}
+
+nav p {
+  width: 100%;
+  text-align: left;
+  padding: 1rem;
+  border: 2px solid #c10909;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+nav p:nth-child(2n + 1) {
+  border: 0;
+}
+
+nav p:hover {
+  background: #c10909;
+}
+
+nav p a {
+  text-decoration: none;
+  color: var(--white);
 }
 
 main {
@@ -80,7 +114,7 @@ main {
   flex-direction: column;
   width: 95%;
   height: 100%;
-  transition: 0.2s;
+  transition: 0.3s;
 }
 
 main.opened {

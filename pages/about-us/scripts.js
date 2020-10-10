@@ -43,6 +43,10 @@
     doc.querySelectorAll('nav p').forEach(link => {
       link.classList.toggle('hidden');
     });
+
+    const $navImg = doc.querySelector('nav img');
+    $navImg.classList.toggle('opened');
+    $navImg.parentElement.classList.toggle('opened');
   }
 
 })(window, document)
