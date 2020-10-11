@@ -3,6 +3,13 @@
   const $nav = doc.querySelector('nav');
   const $navButton = doc.querySelector('nav button');
   const $content = doc.querySelector('#fullpage');
+  const $navItems = doc.querySelectorAll('nav p');
+  
+  $navItems.forEach(navItem => {
+    navItem.onclick = () => {
+      navItem.firstElementChild.click();
+    }
+  });
 
   $navButton.addEventListener('click', openNav, false);
 

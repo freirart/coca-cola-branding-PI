@@ -3,6 +3,7 @@
 
   const $githubSection = doc.querySelector('#github');
   const $nav = doc.querySelector('nav');
+  const $navItems = doc.querySelectorAll('nav p');
   const $main = doc.querySelector('main');
   const $navButton = doc.querySelector('nav button');
 
@@ -29,6 +30,12 @@
       </article>
     `
     $githubSection.innerHTML += article;
+  });
+
+  $navItems.forEach(navItem => {
+    navItem.onclick = () => {
+      navItem.firstElementChild.click();
+    }
   });
 
   $navButton.addEventListener('click', openNav, false);

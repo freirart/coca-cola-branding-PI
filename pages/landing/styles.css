@@ -172,6 +172,11 @@ h2 {
 	width: 100%;
 	max-width: none;
 	text-align: center;
+	line-height: 3rem;
+}
+
+.check h2 i {
+	font-size: 2rem;
 }
 
 .conteudo-left {
