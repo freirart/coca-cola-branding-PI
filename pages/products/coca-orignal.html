@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/6e502b8152.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="produtos.css">
     <link rel="stylesheet" href="global.css">
     <title>Coca-Cola® Original</title>
@@ -10,13 +11,22 @@
 
 <body>
 
-    <header class="header-coca">
-        <div class="header-menu-coca">
-            <p>
-                <a class="logo" href="index.html"><img src="../../assets/images/products/coca-cola-logo-white-full.png" alt="Logo da Coca-Cola"></a>
-            </p>
+    <nav>
+        <button><i class="fas fa-bars"></i></button>
+        <p class="hidden"><a href="../../pages/landing/index.html">Home</a></p>
+        <p class="hidden"><a href="../../pages/products/coca-orignal.html">Products</a></p>
+        <p class="hidden"><a href="../../pages/about-us/index.html">About Us</a></p>
+        <div class="img-container">
+          <img src="../../assets/images/products/coca-cola-logo-white-full.png" alt="coca-cola logo" />
         </div>
-    </header>
+    </nav>  
+
+    <div class="pass-btn-original-mobile">
+        <button class="btn-go-mobile"><a class="link-pass-mobile" href="coca-orignal.html">ORIGINAL</a></button>
+        <button class="btn-go-mobile"><a class="link-pass-mobile" href="coca-zero.html">ZERO</a></button>
+        <button class="btn-go-mobile"><a class="link-pass-mobile" href="coca-light.html">LIGHT</a></button>
+        <button class="btn-go-mobile"><a class="link-pass-mobile" href="coca-cafe.html">COFFEE</a></button>
+    </div>
 
     <main>
     <div class="container-all-coca">
@@ -50,6 +60,14 @@
             </div>
             
         </div>
+
+        <div class="pass-btn-original">
+            <button class="btn-go"><a class="link-pass" href="coca-orignal.html">ORIGINAL</a></button>
+            <button class="btn-go"><a class="link-pass" href="coca-zero.html">ZERO</a></button>
+            <button class="btn-go"><a class="link-pass" href="coca-light.html">LIGHT</a></button>
+            <button class="btn-go"><a class="link-pass" href="coca-cafe.html">COFFEE</a></button>
+        </div>
+
 
         <div class="info-txt">
             <h4>Original</h4>
@@ -121,5 +139,6 @@
 </footer>    
 
 <script src="app.js"></script>  
+<script src="script.js"></script>
 </body>
 </html>
