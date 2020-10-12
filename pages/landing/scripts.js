@@ -4,6 +4,7 @@
   const $navButton = doc.querySelector('nav button');
   const $content = doc.querySelector('#fullpage');
   const $navItems = doc.querySelectorAll('nav p');
+  const $discoverMoreBtn = doc.querySelectorAll('.button');
   
   $navItems.forEach(navItem => {
     navItem.onclick = () => {
@@ -28,4 +29,10 @@
     $navImg.classList.toggle('opened');
     $navImg.parentElement.classList.toggle('opened');
   }
+
+  $discoverMoreBtn.forEach(button => {
+    button.addEventListener('click', () => {
+      win.location = '../products/coca-original.html';
+    });
+  });
 })(window, document);
