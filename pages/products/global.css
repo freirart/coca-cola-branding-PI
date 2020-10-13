@@ -121,12 +121,13 @@ nav {
     /* margin-top: 5rem; */
     justify-content: space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
     height: 100%;
+    position: absolute;
   }
 
   main.opened {
-    right: 0;
+    opacity: 0.25;
   }
 
 .img-frame {
@@ -210,6 +211,7 @@ footer{
     align-items: center;
     flex-direction: row;
     background-color: #ca0000;
+    width: 100%;
 }
 
 .conteudo-footer{
@@ -473,7 +475,7 @@ footer .calorias h5, .acucar h5{
         right: 95%;
         background: #ca0000;
         color: white;
-        transition: 0.3s;
+        transition: 0.4s;
       }
       
       nav.opened {
@@ -512,7 +514,7 @@ footer .calorias h5, .acucar h5{
         font-size: 1.4rem;
         border: 0px;
         outline: none;
-        transition: all 0.3s ease 0s;
+        transition: all 0.4s ease 0s;
         cursor: pointer;
         height: 2%;
         margin: 0;
@@ -532,7 +534,7 @@ footer .calorias h5, .acucar h5{
         padding: 1rem;
         border: 2px solid #c10909;
         cursor: pointer;
-        transition: 0.3s;
+        transition: 0.4s;
       }
       
       nav p:nth-child(2n + 1) {
@@ -561,16 +563,17 @@ footer .calorias h5, .acucar h5{
         padding: 1rem;
         border: 2px solid #c10909;
         cursor: pointer;
-        transition: 0.3s;
+        transition: 0.4s;
       }
 
       main.opened {
-        right: 0;
+        right: -10%;
         opacity: 0.25;
       }
       
     main{
         margin: 0;
+        transition: 0.4s;
     }
 
     .img-banner{

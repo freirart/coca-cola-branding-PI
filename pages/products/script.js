@@ -9,7 +9,7 @@
   
     function openNav() {
       $nav.classList.toggle('opened');
-    //   $main.classList.toggle('opened');
+      $main.classList.toggle('opened');
       $navButton.classList.toggle('opened');
       $navButton.firstElementChild.classList.toggle('fa-bars');
       $navButton.firstElementChild.classList.toggle('fa-times');
