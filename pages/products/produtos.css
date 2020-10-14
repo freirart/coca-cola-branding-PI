@@ -121,7 +121,6 @@ div.descricao{
     font-size: 6vw;
 }
 
-
 .descricao-zero h1, .descricao-light h1, .descricao-cafe h1{
     margin-top: 5vw;
     color: white;
@@ -229,7 +228,7 @@ p.latinha-cafe{
 }
 
 .tamanho-garrafa{
-    width: 5vw;;
+    width: 5vw;
 }
 
 .tamanho-lata{
@@ -637,7 +636,6 @@ div.descricao{
 .tamanho-lata-cafe-div p.latinha-cafe{
     font-size: 4vw;
 }
-
 
 .info h4{ 
     font-size: 5vw;

@@ -90,6 +90,7 @@ nav p {
   border: 2px solid #c10909;
   cursor: pointer;
   transition: 0.3s;
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav p:nth-child(2n + 1) {

@@ -4,6 +4,7 @@
     const $nav = doc.querySelector('nav');
     const $main = doc.querySelector('main');
     const $navButton = doc.querySelector('nav button');
+    const $navItems = doc.querySelectorAll('nav p');
   
     $navButton.addEventListener('click', openNav, false);
   
@@ -22,6 +23,12 @@
       $navImg.classList.toggle('opened');
       $navImg.parentElement.classList.toggle('opened');
     }
+
+    $navItems.forEach(navItem => {
+      navItem.onclick = () => {
+        navItem.firstElementChild.click();
+      }
+    });
   
   })(window, document)
   
