@@ -32,7 +32,7 @@
 
   $discoverMoreBtn.forEach(button => {
     button.addEventListener('click', () => {
-      win.location = '../pages/products/coca-original.html';
+      win.location = 'pages/products/coca-original.html';
     });
   });
 })(window, document);
